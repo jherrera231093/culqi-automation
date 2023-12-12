@@ -6,7 +6,9 @@
   },
   "scripts": {
     "script": "cypress run --browser chrome",
-    "test": "npm run script"
+    "test": "npm run script",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": "cypress/pom/step_definitions/*.js",
